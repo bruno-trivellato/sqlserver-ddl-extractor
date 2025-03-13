@@ -1,0 +1,47 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Build e Debug
+bin/
+obj/
+debug/
+release/
+
+# Arquivos gerados pelo NuGet
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Configurações do Resharper / Rider
+.idea/
+*.sln.DotSettings
+
+# Configurações do Windows
+Thumbs.db
+Desktop.ini
+
+# Logs, Crash Reports e Debug
+*.log
+*.tlog
+*.dmp
+
+# Arquivos temporários do sistema
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+
+# Publicação
+publish/
+out/
+
+# Arquivos gerados automaticamente pelo designer do WinForms
+*.Designer.cs
+
+# Arquivos de cache do Rider
+.idea/
