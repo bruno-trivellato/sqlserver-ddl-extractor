@@ -9,6 +9,10 @@ SQL Server DDL Extractor is a lightweight Windows Forms tool that automates DDL 
 -   **Clean Output:** Generates simplified, easy-to-read DDL scripts by removing extra settings.
 -   **Responsive UI:** Uses async operations so the app stays snappy.
 
+## Why Windows Forms?
+
+I initially attempted to build this tool using Python, but encountered challenges with the SQL Server SMO library, which is necessary for DDL extraction. After struggling to make it work in Python, I decided to switch to .NET and use Windows Forms, which provided a more straightforward solution for integrating with the SQL Server Management Objects.
+
 ## My Use Case
 
 I built this tool because my database schema changes pretty often, and I needed a quick way to grab the latest DDLs. I then feed those scripts into generative AI tools like ChatGPT to get insights and help manage my database. It saves me tons of time and lets me focus on what really matters.
